@@ -1,0 +1,13 @@
+*.eep
+*.elf
+*.d
+*.o
+*.srec
+*.map
+*.b#?
+*.s#?
+*.orig
+*.epf
+*.dri
+*.gpi
+*.GML
