@@ -16,7 +16,8 @@ License Information
 
 All contents of this repository are released under [Creative Commons Share-alike 3.0](http://creativecommons.org/licenses/by-sa/3.0/).
 
-Authors: 
+Authors:
+
 Jamie Robertson @ robertsonics
-Jordan McConnell @ SparkFun Electronics
-Aaron Weiss @ SparkFun Electonics
+
+Jordan McConnell, Aaron Weiss @ SparkFun Electronics
