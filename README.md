@@ -1,10 +1,10 @@
-MP3 Trigger v3
+WAV Trigger
 ===============
 
-[![MP3 Trigger v3](.jpg)  
+[![WAV Trigger](.jpg)  
 *MP3 Trigger v3 (BOB-xxxxx)*]()
 
-The MP3 Trigger v3 is the higher end version of v2. 
+The WAV Trigger is the higher end version of the MP3 Trigger v2. 
 
 Repository Contents
 -------------------
