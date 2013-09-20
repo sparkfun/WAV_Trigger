@@ -2,9 +2,9 @@ WAV Trigger
 ===============
 
 [![WAV Trigger](.jpg)  
-*MP3 Trigger v3 (BOB-xxxxx)*]()
+*WAV Trigger (BOB-xxxxx)*]()
 
-The WAV Trigger is the higher end version of the MP3 Trigger v2. 
+The WAV Trigger is similar to its cousin, the MP3 Trigger, however it plays .WAV files and allows them to be mixed on the fly. 
 
 Repository Contents
 -------------------
@@ -20,4 +20,4 @@ Authors:
 
 Jamie Robertson @ robertsonics
 
-Jordan McConnell, Aaron Weiss @ SparkFun Electronics
+Jordan McConnell @ SparkFun Electronics
