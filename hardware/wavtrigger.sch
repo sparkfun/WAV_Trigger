@@ -11279,11 +11279,11 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <part name="C21" library="SparkFun-Capacitors" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
 <part name="C22" library="SparkFun-Capacitors" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
 <part name="C23" library="SparkFun-Capacitors" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
-<part name="C24" library="SparkFun-Capacitors" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
+<part name="C24" library="SparkFun-Capacitors" deviceset="CAP" device="0603-CAP" value="2.2uF"/>
 <part name="P+10" library="supply1" deviceset="VCC" device="" value="+3V3"/>
 <part name="GND21" library="supply1" deviceset="GND" device=""/>
 <part name="GND22" library="supply1" deviceset="GND" device=""/>
-<part name="C25" library="SparkFun-Capacitors" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
+<part name="C25" library="SparkFun-Capacitors" deviceset="CAP" device="0603-CAP" value="2.2uF"/>
 <part name="C26" library="SparkFun-Capacitors" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
 <part name="C27" library="SparkFun-Capacitors" deviceset="CAP" device="0603-CAP" value="10uF"/>
 <part name="C28" library="SparkFun-Capacitors" deviceset="CAP" device="0603-CAP" value="2200pF"/>
