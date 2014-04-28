@@ -185,9 +185,9 @@
 <text x="2.794" y="35.052" size="1.016" layer="21" font="vector" ratio="15">VIN</text>
 <circle x="35.941" y="24.638" radius="0" width="0.762" layer="29"/>
 <text x="60.833" y="23.876" size="0.8128" layer="21" font="vector" ratio="15" rot="R180">I2S</text>
-<text x="57.15" y="23.749" size="0.8128" layer="21" font="vector" ratio="15" rot="R90">MCLK</text>
-<text x="57.023" y="28.956" size="0.8128" layer="21" font="vector" ratio="15" rot="R90">BCLK</text>
-<text x="57.023" y="32.258" size="0.8128" layer="21" font="vector" ratio="15" rot="R90">LRCK</text>
+<text x="57.023" y="24.638" size="0.8128" layer="21" font="vector" ratio="15" rot="R90">MC</text>
+<text x="57.023" y="29.845" size="0.8128" layer="21" font="vector" ratio="15" rot="R90">BC</text>
+<text x="57.023" y="32.385" size="0.8128" layer="21" font="vector" ratio="15" rot="R90">LR</text>
 <text x="57.023" y="27.305" size="0.8128" layer="21" font="vector" ratio="15" rot="R90">DI</text>
 </plain>
 <libraries>
@@ -1989,7 +1989,7 @@ design rules under a new name.</description>
 <element name="FRAME2" library="SparkFun-Aesthetics" package="CREATIVE_COMMONS" value="FRAME-LEDGER" x="17.78" y="-20.32"/>
 <element name="FID1" library="SparkFun-Aesthetics" package="MICRO-FIDUCIAL" value="FIDUCIALUFIDUCIAL" x="1.016" y="52.832"/>
 <element name="FID2" library="SparkFun-Aesthetics" package="MICRO-FIDUCIAL" value="FIDUCIALUFIDUCIAL" x="58.42" y="6.35"/>
-<element name="C6" library="SparkFun-Capacitors" package="0603-CAP" value=".39uF" x="50.292" y="40.259" rot="R90"/>
+<element name="C6" library="SparkFun-Capacitors" package="0603-CAP" value=".39uF" x="50.292" y="39.878" rot="R90"/>
 <element name="TP1" library="SparkFun-Passives" package="TP_15TH" value="TEST-POINTTP_15TH_THRU" x="35.941" y="24.638"/>
 <element name="J10" library="SparkFun-Connectors" package="1X04" value="" x="59.69" y="25.4" rot="R90"/>
 <element name="LOGO4" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.2" value="SFE_LOGO_FLAME.2_INCH" x="47.244" y="32.512"/>
@@ -2863,7 +2863,8 @@ design rules under a new name.</description>
 <wire x1="48.62" y1="45.45" x2="50.435" y2="45.45" width="0.254" layer="1"/>
 <wire x1="50.435" y1="45.45" x2="51.181" y2="44.704" width="0.254" layer="1"/>
 <wire x1="51.181" y1="44.704" x2="51.181" y2="41.998" width="0.254" layer="1"/>
-<wire x1="51.181" y1="41.998" x2="50.292" y2="41.109" width="0.254" layer="1"/>
+<wire x1="51.181" y1="41.998" x2="51.181" y2="41.617" width="0.254" layer="1"/>
+<wire x1="51.181" y1="41.617" x2="50.292" y2="40.728" width="0.254" layer="1"/>
 </signal>
 <signal name="FILTER">
 <contactref element="U5" pad="11"/>
@@ -3075,16 +3076,17 @@ design rules under a new name.</description>
 <signal name="TXD">
 <contactref element="U4" pad="42"/>
 <contactref element="J4" pad="5"/>
-<wire x1="50.927" y1="21.844" x2="52.324" y2="21.844" width="0.254" layer="1"/>
-<via x="52.324" y="21.844" extent="1-16" drill="0.508"/>
-<wire x1="52.324" y1="21.844" x2="56.261" y2="21.844" width="0.254" layer="16"/>
+<wire x1="50.927" y1="21.844" x2="52.07" y2="21.844" width="0.254" layer="1"/>
+<via x="52.07" y="21.844" extent="1-16" drill="0.508"/>
 <via x="58.42" y="19.177" extent="1-16" drill="0.508"/>
 <wire x1="58.42" y1="19.177" x2="58.42" y2="13.97" width="0.254" layer="1"/>
 <wire x1="58.42" y1="13.97" x2="62.23" y2="10.16" width="0.254" layer="1"/>
-<wire x1="56.261" y1="21.844" x2="58.42" y2="19.685" width="0.2032" layer="16"/>
-<wire x1="58.42" y1="19.685" x2="58.42" y2="19.177" width="0.2032" layer="16"/>
 <wire x1="50.927" y1="21.844" x2="50.431" y2="22.34" width="0.254" layer="1"/>
 <wire x1="50.431" y1="22.34" x2="48.93" y2="22.34" width="0.254" layer="1"/>
+<wire x1="58.42" y1="19.177" x2="58.293" y2="19.177" width="0.254" layer="16"/>
+<wire x1="58.293" y1="19.177" x2="56.642" y2="20.828" width="0.254" layer="16"/>
+<wire x1="56.642" y1="20.828" x2="53.086" y2="20.828" width="0.254" layer="16"/>
+<wire x1="53.086" y1="20.828" x2="52.07" y2="21.844" width="0.254" layer="16"/>
 </signal>
 <signal name="N$9">
 <contactref element="R15" pad="2"/>
@@ -3106,9 +3108,12 @@ design rules under a new name.</description>
 <wire x1="57.531" y1="23.622" x2="57.57" y2="23.583" width="0.254" layer="1"/>
 <wire x1="51.181" y1="22.86" x2="51.161" y2="22.84" width="0.254" layer="1"/>
 <wire x1="51.161" y1="22.84" x2="48.93" y2="22.84" width="0.254" layer="1"/>
-<wire x1="51.181" y1="22.86" x2="56.515" y2="22.86" width="0.254" layer="16"/>
 <wire x1="56.515" y1="22.86" x2="57.277" y2="23.622" width="0.254" layer="16"/>
 <wire x1="57.277" y1="23.622" x2="57.531" y2="23.622" width="0.254" layer="16"/>
+<wire x1="51.181" y1="22.86" x2="52.578" y2="22.86" width="0.254" layer="16"/>
+<wire x1="52.578" y1="22.86" x2="53.213" y2="22.225" width="0.254" layer="16"/>
+<wire x1="53.213" y1="22.225" x2="55.88" y2="22.225" width="0.254" layer="16"/>
+<wire x1="55.88" y1="22.225" x2="56.515" y2="22.86" width="0.254" layer="16"/>
 </signal>
 <signal name="N$7">
 <contactref element="R16" pad="1"/>
@@ -3689,11 +3694,12 @@ design rules under a new name.</description>
 <wire x1="59.69" y1="44.831" x2="61.048" y2="44.831" width="0.254" layer="1"/>
 <wire x1="61.048" y1="44.831" x2="61.087" y2="44.87" width="0.254" layer="1"/>
 <wire x1="54.229" y1="41.148" x2="54.229" y2="39.751" width="0.254" layer="1"/>
-<wire x1="54.229" y1="39.751" x2="53.848" y2="39.37" width="0.254" layer="1"/>
-<wire x1="53.848" y1="39.37" x2="50.331" y2="39.37" width="0.254" layer="1"/>
-<wire x1="50.331" y1="39.37" x2="50.292" y2="39.409" width="0.254" layer="1"/>
+<wire x1="54.229" y1="39.751" x2="53.594" y2="39.116" width="0.254" layer="1"/>
+<wire x1="53.594" y1="39.116" x2="51.601" y2="39.116" width="0.254" layer="1"/>
 <wire x1="54.229" y1="43.815" x2="54.229" y2="44.323" width="0.254" layer="1"/>
 <wire x1="54.229" y1="44.323" x2="53.721" y2="44.831" width="0.254" layer="1"/>
+<wire x1="51.601" y1="39.116" x2="50.38" y2="39.116" width="0.254" layer="1"/>
+<wire x1="50.38" y1="39.116" x2="50.292" y2="39.028" width="0.254" layer="1"/>
 </signal>
 <signal name="N$22">
 <contactref element="TP1" pad="P$1"/>
