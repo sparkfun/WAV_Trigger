@@ -189,6 +189,7 @@
 <text x="57.023" y="29.845" size="0.8128" layer="21" font="vector" ratio="15" rot="R90">BC</text>
 <text x="57.023" y="32.385" size="0.8128" layer="21" font="vector" ratio="15" rot="R90">LR</text>
 <text x="57.023" y="27.305" size="0.8128" layer="21" font="vector" ratio="15" rot="R90">DI</text>
+<text x="2.413" y="6.223" size="0.8128" layer="21" font="vector" ratio="15">T1</text>
 </plain>
 <libraries>
 <library name="SparkFun-Connectors">
