@@ -1,7 +1,7 @@
 WAV Trigger
 ===============
 
-[![WAV Trigger]([https://dlnmh9ip6v2uc.cloudfront.net/images/products/1/2/0/0/0/12000-01.jpg](https://cdn.sparkfun.com/assets/parts/1/1/0/7/3/12897-02.jpg))](https://www.sparkfun.com/products/13660)
+[![WAV Trigger](https://cdn.sparkfun.com/assets/parts/1/1/0/7/3/12897-02.jpg)](https://www.sparkfun.com/products/13660)
 
 [*WAV Trigger (WIG-13660)*](https://www.sparkfun.com/products/13660)
 
